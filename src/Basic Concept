@@ -1,0 +1,38 @@
+Complexity
+
+Time Complexity:
+    Operations
+    Comparisons
+    Loop
+    Pointer references
+    function calls to outside
+
+Space Complexity:
+    Variable
+    Data Structure
+    Allocation
+    Function call
+
+somefunc(int x) /// the function call(M) and argument(N); looking at the memory
+                /// the argument here would take memory to use
+    int y = 5 /// declaration of a variable(P); connecting to the memory, so we ignore the
+              /// operation of it when it charges its value
+    y = 1 + 2 // constant O(1): A
+
+    for (int i = 0; i < x; i ++) // n times: B  /// we don't count the for loop itself
+        someother(); // n times: C
+        int z = 9;                              /// we only care about this declaration(E)
+        y ++; // n times: D
+
+    return y
+
+    Time Complexity:
+        A + nB + nC + nD
+        A + n(B + C + D)
+        k1 + nk2
+        O(n)
+
+    Space Complexity:
+        M + N + P + nE
+        k1 + nk2
+        O(n)
