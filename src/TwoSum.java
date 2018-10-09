@@ -1,11 +1,13 @@
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * File: TwoSum.java (#1)
  * Author: Jiaxin Liu
  * Date: 10/09/2018
  */
+
+import java.util.HashMap;
+import java.util.Map;
+
 public class TwoSum {
 
     /**
